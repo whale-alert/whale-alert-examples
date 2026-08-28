@@ -18,18 +18,18 @@ This repository is organized language-first:
 
 ```
 whale-alert-examples/
-├── go/                                   # Go Quickstarts (Recommended for low-latency pipelines)
+├── go/                                  # Go Quickstarts (Recommended for low-latency pipelines)
 │   ├── 01_websocket_live_stream/        # Connect, authenticate, handle heartbeats, stream events
 │   ├── 02_wallet_watcher/               # Multi-chain address and contract monitoring
-│   ├── 03_stablecoin_mints_burns/        # Real-time stablecoin mints, burns, (un)freezes & (un)locks
+│   ├── 03_stablecoin_mints_burns/       # Real-time stablecoin mints, burns, (un)freezes & (un)locks
 │   ├── 04_historical_query/             # REST API pagination and historical aggregation
 │   ├── 05_historical_balance/           # Historical address balance and price at a specific timestamp
 │   └── 06_reorg_detector/               # Real-time chain reorganization, orphan & uncle block detection
 │
-└── python/                               # Python Quickstarts
+└── python/                              # Python Quickstarts
     ├── 01_websocket_live_stream/        # Asynchronous WebSocket consumer
     ├── 02_wallet_watcher/               # Multi-chain address monitor
-    ├── 03_stablecoin_mints_burns/        # Real-time stablecoin mints, burns, (un)freezes & (un)locks
+    ├── 03_stablecoin_mints_burns/       # Real-time stablecoin mints, burns, (un)freezes & (un)locks
     ├── 04_historical_query/             # REST historical query and metrics
     ├── 05_historical_balance/           # Historical address balance and price at a specific timestamp
     └── 06_reorg_detector/               # Real-time chain reorganization, orphan & uncle block detection
